@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Diffence",
+	"description": "This is a repository of diffence APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/diffence.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://diffence.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Bitbucket",
+			"x-api-slug": "bitbucket",
+			"description": "Collaborate on code with inline comments and pull requests. Manage and share your Git repositories to build and ship software, as a team.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg",
+			"humanURL": "http://bitbucket.org",
+			"baseURL": "https://api.bitbucket.org//2.0",
+			"tags": "Diffence",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/diffence/master/_listings/bitbucket/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Diffence",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/diffence/master/_listings/gitlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Diffence",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/diffence/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Diffence",
+	"include": [
+		{
+			"name": "Bitbucket",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/diffence/master/_listings/bitbucket/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/diffence/master/_listings/gitlab/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/diffence/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
